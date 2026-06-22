@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=League+Spartan:wght@100..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    border:0;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.logo{
+    padding-left: 30px;
+    width:190px;
+}
+
+:root {
+    --preto: #0A0A0A;
+    --preto-secundario: #151515;
+    --dourado: #C6A86A;
+    --dourado-claro: #D8BE8A;
+    --branco: #F5F5F5;
+    --cinza: #A0A0A0;
+}
+header{
+    z-index:999;
+    border:0;
+    top:0;
+    position: sticky;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: var(--preto);
+    
+}
+
+.navbar{
+    z-index:999;
+    padding:0;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    }
+
+ul{
+    display:flex;
+    margin:0;
+    gap:100px;
+    padding-right:90px ;
+    list-style:none;
+    color:var(--branco);
+}
+
+a{
+    text-decoration:none;
+    color:white;
+}
+main{
+    padding:30px;
+    align-items:center;
+    
+}
+.imagem1{
+    z-index:0;
+    width:11cm;
+    max-height:450px;
+    position:relative;
+    left:21cm;
+    margin:0;
+    border-radius:40px;
+    padding:0;
+    margin-top: -7cm;
+}
+
+
+.first-view{
+    background-color:var(--preto);
+    border-radius:20px;
+    padding:0px 0px 60px 0px; 
+    position:static;
+    margin:0px;
+}
+
+h1{
+    font-family: 'Archivo-Black', sans-serif;
+    font-weight: 800;
+    line-height: 1.0;
+    font-size:3.5em;
+    color:white;
+    padding-left:50px;
+    padding-top:50px;
+}
+
+h3{
+    font-size:1em;
+    padding-top:4px;
+    padding-left:50px;
+    color:white;
+}
+h4{
+    padding-left:50px;
+    padding-top:50px;
+    color:white;
+}
+#nossa{
+
+    color:var(--dourado);
+}
+
+.wpp-button{
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+
+    background-color: #25D366; 
+    color: #ffffff;
+
+    padding: 14px 22px;
+    border-radius: 999px;
+
+    font-weight: 600;
+    font-size: 0.95rem;
+    cursor: pointer;
+
+    position: relative;
+    bottom:70px;
+    left: -370px;
+    margin-left: 0;
+
+    margin-top:12px;
+
+    white-space: nowrap;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+
+.wpp-button::before{
+    content: "";   
+    width: 28px;
+    height: 33px;
+    background: url('/images/whatsapp-logo-png-white.webp') no-repeat center / contain;
+    display: inline-block;
+}
+
+
+
+
+
+
+
