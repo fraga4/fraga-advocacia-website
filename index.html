@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Auxílio Maternidade</title>
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/style-landing-teste.css">
-
 </head>
 <body>
     <header>
@@ -209,22 +207,6 @@ Tudo de forma simples,<br> rápida e sem complicação.
             </div>
         </div>
     </footer>
-
-    <script>
-        document.getElementById('ano-atual').textContent = new Date().getFullYear();
-
-        document.querySelectorAll('.wpp-button, .footer-link').forEach(function (botao) {
-            botao.addEventListener('click', function () {
-                var origem = botao.dataset.cta || 'desconhecida';
-
-                window.dataLayer = window.dataLayer || [];
-                window.dataLayer.push({
-                    event: 'clique_whatsapp',
-                    cta_origem: origem
-                });
-            });
-        });
-    </script>
 </body>
 </html>
 
